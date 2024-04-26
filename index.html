@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======== Favicon ======= -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- ======== Boxicons ======= -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!-- ======== Slider Js ======= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css" />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ======== StyleSheet ======= -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>DLU | Home</title>
+  </head>
+  <body>
+    <button onclick="scrollToTop()" class="fixed bottom-10 right-10 px-6 py-5 bg-[#ff6900] rounded-full text-white">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+    <!-- header -->
+    <header class="header" id="header">
+      <!-- Navigation -->
+      <div class="navigation">
+        <nav class="nav d-flex">
+          <div class="logo">
+            <a href="/">
+              <img src="/images/Logo DLU.png" />
+            </a>
+          </div>
+          <div class="sidebar">
+            <ul class="nav-list d-flex">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="/logo.html" class="nav-link">Visualisasi Logo</a>
+              </li>
+              <li class="nav-item">
+                <a href="/most-route.html" class="nav-link">Most Route</a>
+              </li>
+              <li class="nav-item">
+                <a href="/penghargaan.html" class="nav-link">Penghargaan</a>
+              </li>
+              <li class="nav-item">
+                <a href="/location.html" class="nav-link">Location</a>
+              </li>
+            </ul>
+          </div>
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </nav>
+      </div>
+      <!-- Section Viwew -->
+      <div class="swiper-container slider-1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/images/VIEW 1 DLU.webp" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/OKe.avif" alt="hero image" />
+          </div>
+          <div class="swiper-slide">
+            <video muted loop autoplay>
+              <source src="/images/DLU 11.mp4" type="video/mp4" />
+              <source src="/images/DLU 11.mp4" type="video/webm" />
+            </video>
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/Gambar 5.jpg" alt="hero image" />
+          </div>
+          <div class="swiper-slide">
+            <video muted loop autoplay>
+              <source src="/images/DLU 12.mp4" type="video/mp4" />
+              <source src="/images/DLU 12.mp4" type="video/webm" />
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="arrows d-flex">
+        <div class="swiper-prev d-flex">
+          <i class="bx bx-chevron-left swiper-icon"></i>
+        </div>
+        <div class="swiper-next d-flex">
+          <i class="bx bx-chevron-right swiper-icon"></i>
+        </div>
+      </div>
+    </header>
+
+    <br />
+    <main class="main p-6">
+      <br />
+      <br />
+      <br />
+      <p class="text-4xl text-center font-semibold text-[#0f2341]">PT. Dharma Lautan Utama</p>
+      <br />
+      <br />
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div>
+          <img src="/images/kapal1.webp" alt="" class="object-cover h-[400px]" />
+          <br />
+          <p class="text-center font-semibold text-[#0f2341]">Perjalanan yang nyaman</p>
+        </div>
+        <div>
+          <img src="/images/kapal2.jpg" alt="" class="object-cover h-[400px]" />
+          <br />
+          <p class="text-center font-semibold text-[#0f2341]">Terjamin asuransi</p>
+        </div>
+        <div>
+          <img src="/images/kapal3.webp" alt="" class="object-cover h-[400px]" />
+          <br />
+          <p class="text-center font-semibold text-[#0f2341]">Keamanan terjaga</p>
+        </div>
+      </div>
+    </main>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Section Footer -->
+    <footer class="footer">
+      <div class="w-full">
+        <br>
+        <br>
+        <p class="text-center">© PT. Dharma Lautan Utama</p>
+        <br>
+        <br>
+      </div>
+    </footer>
+
+    <!-- ======== SwiperJS ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+    <!-- ======== SCROLL REVEAL ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <!-- ======== SliderJS ======= -->
+    <script src="js/slider.js"></script>
+    <!-- ======== IndexJS ======= -->
+    <script src="js/index.js"></script>
+  </body>
+</html>

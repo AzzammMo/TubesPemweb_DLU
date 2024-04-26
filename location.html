@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======== Favicon ======= -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- ======== Boxicons ======= -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!-- ======== Slider Js ======= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css" />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ======== StyleSheet ======= -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>DLU | Location</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header" id="header" style="min-height: 10px">
+      <!-- Navigation -->
+      <div class="navigation" style="background-color: #0f2341">
+        <nav class="nav d-flex">
+          <div class="logo">
+            <a href="/">
+              <img src="/images/Logo DLU.png" />
+            </a>
+          </div>
+          <div class="sidebar">
+            <ul class="nav-list d-flex">
+              <li class="nav-item">
+                <a href="/index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="/logo.html" class="nav-link">Visualisasi Logo</a>
+              </li>
+              <li class="nav-item">
+                <a href="/most-route.html" class="nav-link">Most Route</a>
+              </li>
+              <li class="nav-item">
+                <a href="/penghargaan.html" class="nav-link">Penghargaan</a>
+              </li>
+              <li class="nav-item">
+                <a href="/location.html" class="nav-link">Location</a>
+              </li>
+            </ul>
+          </div>
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main padding-20">
+      <!-- Section Map -->
+      <section class="section contact" id="contact">
+        <div class="title">
+          <h1>VIEW MAP</h1>
+        </div>
+        <div class="location container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.841487327192!2d112.74932207318494!3d-7.258874371310808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f97aa8030c77%3A0xf8e6fd163d898499!2sPT.%20DHARMA%20LAUTAN%20UTAMA%20-%20Armada%20Pelayaran%20Nasional!5e0!3m2!1sid!2sid!4v1713406426121!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </section>
+
+      <p class="text-center text-4xl font-semibold text-[#0f2341]">Ajukan pertemuan</p>
+      <br />
+      <div class="flex w-full">
+        <form action="#" class="mx-auto">
+          <div>
+            <p class="text-[#0f2341] font-semibold">Nama</p>
+            <input type="text" class="px-4 py-2 w-[400px] border-2 rounded-lg border-[#0f2341]" />
+          </div>
+          <br />
+          <div>
+            <p class="text-[#0f2341] font-semibold">Alamat</p>
+            <input type="text" class="px-4 py-2 w-[400px] border-2 rounded-lg border-[#0f2341]" />
+          </div>
+          <br />
+          <div>
+            <p class="text-[#0f2341] font-semibold">Keperluan</p>
+            <input type="text" class="px-4 py-2 w-[400px] border-2 rounded-lg border-[#0f2341]" />
+          </div>
+          <br />
+          <div>
+            <p class="text-[#0f2341] font-semibold">Jam pertemuan</p>
+            <input type="time" class="px-4 py-2 w-[400px] border-2 rounded-lg border-[#0f2341]" />
+          </div>
+          <br />
+          <button class="float-end px-6 py-2 text-white text-semibold bg-[#0f2341] rounded-lg">Kirim</button>
+        </form>
+      </div>
+    </main>
+    <br />
+    <br />
+    <br />
+    <!-- Section Footer -->
+    <footer class="footer">
+      <div class="w-full">
+        <br />
+        <br />
+        <p class="text-center">© PT. Dharma Lautan Utama</p>
+        <br />
+        <br />
+      </div>
+    </footer>
+
+    <!-- ======== SwiperJS ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+    <!-- ======== SCROLL REVEAL ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <!-- ======== SliderJS ======= -->
+    <script src="js/slider.js"></script>
+    <!-- ======== IndexJS ======= -->
+    <script src="js/index.js"></script>
+  </body>
+  <style>
+    .padding-20 {
+      padding: 20px;
+    }
+  </style>
+</html>
